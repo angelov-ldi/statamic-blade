@@ -4,7 +4,7 @@ namespace Edalzell\Blade\Directives;
 
 use Edalzell\Blade\Concerns\IsDirective;
 use Statamic\Facades\Collection as CollectionAPI;
-use Statamic\Stache\Query\EntryQueryBuilder;
+use Statamic\Eloquent\Entries\EntryQueryBuilder;
 use Statamic\Support\Arr;
 
 class Collection
